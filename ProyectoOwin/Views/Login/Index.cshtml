@@ -1,0 +1,50 @@
+﻿@model ProyectoOwin.Controllers.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <link href="~/Content/style.css" rel="stylesheet" />
+</head>
+    
+<body>
+    <div align="center">
+        <br />
+        <br />
+        <br />
+        <br />
+        <h1><a href="@Url.Action("Index", "Ejemplo")"><b>Login</b></a></h1>
+        <br />
+    </div>
+    <div align="center">
+        @using (Html.BeginForm("Index", "Login", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+            {
+            @Html.AntiForgeryToken()
+            @Html.ValidationMessage("errorMsg", new { @class = "text-danger" });
+            <div class="form-group">
+                @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Usuario" })
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", type = "password", placeholder = "Contraseña" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+            </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </div>
+        }
+    </div>
+</body>
+</html>
