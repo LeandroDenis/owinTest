@@ -27,13 +27,6 @@ C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\roslyn\VBCSCompiler.exe
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Antlr3.Runtime.dll
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\GridMvc.dll
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.Web.dll
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.ApplicationInsights.dll
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.Owin.dll
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.Owin.Host.SystemWeb.dll
@@ -51,11 +44,6 @@ C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\System.Web.WebPages.dll
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\System.Web.WebPages.Razor.dll
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\WebGrease.dll
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Antlr3.Runtime.pdb
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.Web.xml
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.ApplicationInsights.xml
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.Owin.xml
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.Owin.Host.SystemWeb.xml
