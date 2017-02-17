@@ -3,7 +3,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
 
-
+[assembly: OwinStartup(typeof(ProyectoOwin.Startup))]
 namespace ProyectoOwin
 {
     public static class MyAuthentication

@@ -13,17 +13,12 @@
 <div>
     @Html.Grid(Model).Columns(columns =>
 {
-
+    columns.Add(c => c.Propiedad1).Titled("Id");
+    columns.Add(c => c.Propiedad2).Titled("Nombre");
     if (User.IsInRole("Administrators"))
     {
-        columns.Add(c => c.Propiedad1).Titled("Id");
-        columns.Add(c => c.Propiedad2).Titled("Nombre");
+
         columns.Add(c => c.Propiedad3).Titled("Año");
-    }
-    else
-    {
-            columns.Add(c => c.Propiedad1).Titled("Id");
-            columns.Add(c => c.Propiedad2).Titled("Nombre");
     }
     columns.Add()
     .Encoded(false)

@@ -60,7 +60,7 @@ namespace ProyectoOwin.Models
         private ClaimsIdentity CreateIdentity(UserPrincipal userPrincipal)
         {
             var identity = new ClaimsIdentity(MyAuthentication.ApplicationCookie, ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
-            identity.AddClaim(new Claim(ClaimTypes.Name, userPrincipal.SamAccountName));
+            identity.AddClaim(new Claim(ClaimTypes.Name, userPrincipal.Name));
             identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, userPrincipal.SamAccountName));
             if (!String.IsNullOrEmpty(userPrincipal.EmailAddress))
             {
