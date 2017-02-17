@@ -13,7 +13,7 @@ namespace ProyectoOwin.Controllers
         new Ejemplo { Propiedad1 = 3, Propiedad2 = "Carlos Pellegrini", Propiedad3 = 1890 }        
     };
 
-        [Authorize]
+        [Authorize(Roles = "Users")]
         public ActionResult Index()
         {
             return View(ejemplos);

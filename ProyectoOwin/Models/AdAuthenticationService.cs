@@ -28,6 +28,7 @@ namespace ProyectoOwin.Models
         public AuthenticationResult SignIn(String username, String password)
         {
             PrincipalContext principalContext;
+
             try
             {
                 principalContext = new PrincipalContext(ContextType.Domain, "itrio-server.itrio.net");
@@ -36,8 +37,9 @@ namespace ProyectoOwin.Models
             {
                 return new AuthenticationResult("Servidor no disponible");
             }
-            bool isAuthenticated = false;   
+            bool isAuthenticated = false;
             UserPrincipal userPrincipal = null;
+
             try
             {
                 userPrincipal = UserPrincipal.FindByIdentity(principalContext, username);
@@ -49,7 +51,7 @@ namespace ProyectoOwin.Models
             catch (Exception exception)
             {
                 return new AuthenticationResult("Usuario o Contraseña no son correctas");
-            }   
+            }
 
             if (!isAuthenticated || userPrincipal == null)
             {
@@ -78,9 +80,6 @@ namespace ProyectoOwin.Models
             {
                 identity.AddClaim(new Claim(ClaimTypes.Role, @role.Name));
             }
-
-            // add your own claims if you need to add more information stored on the cookie
-
             return identity;
         }
     }
