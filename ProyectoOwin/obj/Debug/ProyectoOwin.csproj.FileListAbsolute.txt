@@ -102,9 +102,6 @@ C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\roslyn\vbc.exe.config
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\roslyn\vbc.rsp
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\roslyn\VBCSCompiler.exe
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\WebApplication1.dll.config
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\WebApplication1.dll
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\WebApplication1.pdb
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Antlr3.Runtime.dll
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\GridMvc.dll
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\Microsoft.AI.Agent.Intercept.dll
@@ -150,5 +147,8 @@ C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\System.Web.WebPages.xml
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\System.Web.WebPages.Deployment.xml
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\System.Web.WebPages.Razor.xml
 C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\obj\Debug\ProyectoOwin.csprojResolveAssemblyReference.cache
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\obj\Debug\WebApplication1.dll
-C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\obj\Debug\WebApplication1.pdb
+C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\ProyectoOwin.dll.config
+C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\ProyectoOwin.dll
+C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\bin\ProyectoOwin.pdb
+C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\obj\Debug\ProyectoOwin.dll
+C:\Users\ldenis\Desktop\ProyectoOwin\ProyectoOwin\obj\Debug\ProyectoOwin.pdb

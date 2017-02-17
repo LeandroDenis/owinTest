@@ -27,9 +27,16 @@ namespace ProyectoOwin.Models
 
         public AuthenticationResult SignIn(String username, String password)
         {
-            PrincipalContext principalContext = new PrincipalContext(ContextType.Domain, "itrio-server.itrio.net");
-
-            bool isAuthenticated = false;
+            PrincipalContext principalContext;
+            try
+            {
+                principalContext = new PrincipalContext(ContextType.Domain, "itrio-server.itrio.net");
+            }
+            catch (PrincipalServerDownException e)
+            {
+                return new AuthenticationResult("Servidor no disponible");
+            }
+            bool isAuthenticated = false;   
             UserPrincipal userPrincipal = null;
             try
             {
