@@ -71,11 +71,10 @@ namespace ProyectoOwin.Models
             var identity = new ClaimsIdentity(MyAuthentication.ApplicationCookie, ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
             identity.AddClaim(new Claim(ClaimTypes.Name, userPrincipal.Name));
             identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, userPrincipal.SamAccountName));
-            if (!String.IsNullOrEmpty(userPrincipal.EmailAddress))
-            {
-                identity.AddClaim(new Claim(ClaimTypes.Email, userPrincipal.EmailAddress));
-            }
-            var groups = userPrincipal.GetAuthorizationGroups();
+
+            //grupos, roles ?
+            //userManager.IsInRole("ROL ESPECIFICO")
+            var groups = userPrincipal.GetGroups();
             foreach (var @role in groups)
             {
                 identity.AddClaim(new Claim(ClaimTypes.Role, @role.Name));

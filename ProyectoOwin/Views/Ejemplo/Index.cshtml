@@ -15,9 +15,8 @@
 {
     columns.Add(c => c.Propiedad1).Titled("Id");
     columns.Add(c => c.Propiedad2).Titled("Nombre");
-    if (User.IsInRole("Administrators"))
+    if (User.IsInRole("Administracion"))
     {
-
         columns.Add(c => c.Propiedad3).Titled("Año");
     }
     columns.Add()
